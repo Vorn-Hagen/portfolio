@@ -120,6 +120,10 @@ body section .projets section img {
   height: auto;
   margin: auto;
 }
+body section .projets section a {
+  color: white;
+  text-decoration: none;
+}
 
 body .competences_section .first_row {
   display: grid;
@@ -153,6 +157,15 @@ body .competences_section .list h3 {
   margin-top: 10%;
 }
 
-body .p_projet {
-  display: flex;
+body .p_projet div {
+  margin: 2vh auto;
+  text-align: center;
+}
+body .p_projet div img {
+  height: 500px;
+  width: auto;
+}
+body .p_projet p {
+  width: 65%;
+  margin: 5vh auto;
 }/*# sourceMappingURL=style.css.map */

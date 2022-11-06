@@ -159,6 +159,11 @@ body{
                     margin: auto;
 
                 }
+
+                a{
+                    color: white;
+                    text-decoration: none;
+                }
             }
         }
     }
@@ -224,6 +229,19 @@ body{
 body{
 
     .p_projet{
-        display: flex;
+        div{
+            margin: 2vh auto;
+            text-align: center;
+
+            img{
+                height: 500px;
+                width: auto;
+            }
+        }
+
+        p{
+            width: 65%;
+            margin: 5vh auto;
+        }
     }
 }

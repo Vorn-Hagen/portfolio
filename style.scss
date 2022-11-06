@@ -94,6 +94,7 @@ body{
 
             p{
                 margin: 2vh 0;
+                text-align: center;
             }
         }
 
@@ -139,7 +140,7 @@ body{
             justify-content: center;
             height: auto;
             width: 90%;
-            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr ;
             grid-template-rows: 1fr 1fr 1fr;
             gap: 2%;
             margin: 0 auto;
@@ -149,15 +150,14 @@ body{
                 margin: 1vh 0;
                 width: 100%;
                 height: 30vh;
-                border: solid;
-                border-color: #C9C9C9;
-                border-width: 2px;
+                border: solid 2px #C9C9C9;
+                background-color: black;
 
                 img{
-                    width: 100%;
+                    width: 90%;
                     height: auto;
+                    margin: auto;
 
-                    
                 }
             }
         }
@@ -171,6 +171,8 @@ body{
 
 
 body{
+    //scroll-behavior: smooth;
+
     .competences_section{
 
 
@@ -179,12 +181,38 @@ body{
             justify-content: center;
             height: auto;
             width: 90%;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
             gap: 2%;
-            margin: 0 auto;
+            margin: 5vh auto;
+
+            div{
+                height: 100px;
+                width: 100px;
+                margin: 3% auto;
+
+                img{
+                    object-fit: contain;
+
+                    height: 100px;
+                    width: 100px;
+                }
+
+                img:hover{
+                    cursor: pointer;
+                }
+            }
         }
-    
+
+        .list{
+            margin: 3vh 30%;
+            margin-top: 10%;
+
+            h3{
+                margin-top: 10%;
+            }
+        }
+    }
 }
 
 
@@ -199,4 +227,3 @@ body{
         display: flex;
     }
 }
-
